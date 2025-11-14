@@ -1,34 +1,43 @@
-✅ TodoApp — MERN Stack (Node.js + Express + React + MongoDB)
+✅ TodoApp — ERN Stack (Node.js + Express + React + MongoDB)
 
-A simple full-stack Todo application built as part of an internship assignment.
-Users can register, log in, and manage their personal to-do list.
+A simple full-stack Todo application built as part of an internship assignment.TodoApp is a full-stack task management application built with Node.js, Express, MongoDB, and React.
+Users can authenticate securely, create tasks, update them, toggle completion status, and manage their daily work efficiently through a clean and minimal interface.
 
-📌 Features
-Authentication
+🚀 Features
+📝 Full CRUD for Todos
 
-User Registration (username, email, password)
+Create, read, update, and delete personal tasks with instant UI refresh.
 
-User Login
+🔄 Status Toggle
 
-Password hashing using bcrypt
+Switch tasks between pending and completed instantly.
 
-Authentication using JWT
+🔐 JWT Authentication
 
-Protected API routes
+Secure registration and login with hashed passwords (bcrypt) and protected API routes.
 
-To-Do Management
+👤 User-Scoped Todos
 
-Create a new todo
+Every user sees only their own tasks — no data leakage.
 
-View all todos belonging to the authenticated user
+⚡ Lightweight UI
 
-Edit todo (title + description)
+Simple React + Context API + Axios setup.
+No unnecessary libraries, suitable for clean code review.
 
-Toggle todo status (pending ↔ completed)
+🧩 Tech Stack
+Frontend
 
-Delete todo
+React (Vite)
 
-🛠 Tech Stack
+React Router
+
+Tailwind CSS
+
+Axios
+
+Context API
+
 Backend
 
 Node.js
@@ -39,16 +48,30 @@ MongoDB (Mongoose)
 
 JWT Authentication
 
-Bcrypt Password Hashing
+Bcrypt
 
-Frontend
+Tools
 
-React (Vite)
+Git & GitHub for version control
 
-Axios
+Postman / ThunderClient (optional)
 
-TailwindCSS
+📂 Core Features Implemented
 
-Context API for state management
+User Registration & Login
+Token-based authentication, secure password storage.
 
-React Router
+Add Todo Items
+Title + Description fields included.
+
+Edit Todos
+Inline editing for quick modifications.
+
+Toggle Todo Status
+Switch between pending and completed.
+
+Delete Todos
+Immediately removed from UI and database.
+
+Protected Endpoints
+Middleware ensures only authenticated users can access their todos.
