@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap');
+@import "tailwindcss";
+
+*{
+    font-family: "Sirin Stencil", sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@theme {
+  --color-primary: #ffff00;
+}
